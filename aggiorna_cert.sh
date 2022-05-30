@@ -14,4 +14,4 @@ systemctl restart apache2
 }
 
 
-sostituzione_certificato "logika"
+sostituzione_certificato $1
