@@ -1,7 +1,7 @@
 
 sostituzione_certificato() {
 
-cd /var/www/html/azienda/ssl/
+cd /var/www/html/$1/ssl/
 rm /var/www/html/$1/ssl/$1.logikadev.it.crt
 rm /var/www/html/$1/ssl/$1.logikadev.it.key
 
